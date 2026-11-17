@@ -1,0 +1,32 @@
+{
+  "cerebro": "assinatura",
+  "anthropic_api_key": "",
+  "modelo": "claude-opus-5-5",
+  "esforco": "medium",
+  "esforco_consultoria": "medium",
+  "voz": "pt-BR-AntonioNeural",
+  "velocidade_voz": "+8%",
+  "tom_voz": "+0Hz",
+  "saudacao": "Jarvis online.",
+  "microfone": null,
+  "silencio_fim": 1.6,
+  "maximo_fala": 30,
+  "segundos_conversa": 5,
+  "pasta_trabalho": "",
+  "atalhos": {
+    "bloco de notas": "notepad.exe",
+    "downloads": "%USERPROFILE%\\Downloads",
+    "gmail": "https://mail.google.com"
+  },
+  "consultoria_diaria": false,
+  "consultoria_hora": "09:00",
+  "consultoria_fim_de_semana": false,
+  "melhorias_por_dia": 15,
+  "modelo_tarefas": "claude-opus-5-5",
+  "orcamento_tarefa_usd": 2,
+  "minutos_tarefa": 30,
+  "claude_code_cmd": "",
+  "python_whisper": "",
+  "modelo_whisper": "small",
+  "pasta_modelos_whisper": ""
+}

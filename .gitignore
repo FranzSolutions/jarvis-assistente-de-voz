@@ -1,0 +1,27 @@
+# configuração e dados pessoais
+config.json
+memoria.json
+memoria_antes_de_organizar.json
+memoria_organizada.txt
+personalidade.md
+*.log
+
+# ambiente, modelos e caches
+.venv/
+__pycache__/
+modelo/
+modelos-whisper/
+amostras/
+
+# login e instalação do Claude Code
+claude-assinatura/
+claude-code/
+claude-code-config/
+
+# gerado pela auto-melhoria
+habilidades/.versoes/
+habilidades/dados/
+habilidades/*.quebrado-*
+
+# pasta de trabalho padrão
+trabalho/

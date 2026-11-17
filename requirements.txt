@@ -1,0 +1,25 @@
+# Testado com Python 3.14 no Windows 11.
+
+# cérebro: Claude pela assinatura (padrão) ou pela API (config "cerebro": "api")
+claude-agent-sdk==0.2.176
+anthropic==2.3.0
+
+# ouvir: palavra "Jarvis" offline (Vosk) + transcrição do pedido (Google)
+vosk==0.3.45
+SpeechRecognition==3.17.0
+sounddevice==0.5.6
+audioop-lts==0.2.2; python_version >= "3.13"
+
+# falar: vozes neurais do edge-tts + decodificação do mp3 para a onda do painel
+edge-tts==7.3.1
+miniaudio==1.71
+
+# ver a tela
+pillow==13.0.0
+
+# transcrever arquivos de áudio no próprio PC
+faster-whisper==1.2.1
+
+# opcional: Whisper na placa de vídeo NVIDIA (sem eles, roda no processador)
+# nvidia-cublas-cu12==12.9.2.10
+# nvidia-cudnn-cu12==9.27.0.42
